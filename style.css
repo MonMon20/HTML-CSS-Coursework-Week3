@@ -1,1 +1,95 @@
-/*  Add your styling here */
+body{
+    background-color:  #ffe5d9;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+header{
+    background-color:#FFC0D1;
+    margin:0;
+    padding-bottom: 0px;
+    display:flex;
+}
+
+.header-image2{
+    height: 80px;
+}
+
+.header-writing{
+    text-align:right;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.wedding-cake{
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    height:350px;
+    width:330px;
+    border-radius: 4px;
+}
+
+.cake-images{
+    display: grid;
+    justify-content: center;
+    grid-template: 50% 50%/ 50% 50%;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin:15px 15px;
+}
+
+.birthday-cake{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.fruit-cake{
+    height:100%;
+    width:100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.cupcake{
+    height:100%;
+    width:100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.swirl-cake{
+    height:100%;
+    width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+footer{
+    background-color:#FFC0D1
+}
+
+.socials{
+    list-style-type:none;
+}
+
+.Instagram{
+height: 20px;
+width: 20px;
+}
+
+.Twitter{
+height: 20px;
+width: 20px;
+}
+
+.Facebook{
+height: 20px;
+width: 20px;
+}
+
+.created-by{
+    text-align: center;
+}
